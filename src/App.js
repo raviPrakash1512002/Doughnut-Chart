@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import ChartComponent from "./ChartComponent";
+// import "./styles.css";
 
-function App() {
+export default function App() {
+  const data = [
+    { value: 36 },
+    { value: 21},
+    { value: 18},
+    { value: 14 },
+    { value: 9 },
+    { value: 2}
+  ];
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ChartComponent data={data} />
     </div>
   );
 }
-
-export default App;

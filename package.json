@@ -15,7 +15,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,6 +38,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ],
-    "homepage": "https://github.com/raviPrakash1512002/Doughnut-Chart"
+    "homepage": "https://raviPrakash1512002.github.io/Doughnut-Chart"
   }
 }
